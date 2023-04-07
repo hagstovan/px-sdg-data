@@ -41,7 +41,7 @@ src_dir: ''
 inputs:
   - class: InputPxWebApi
     endpoint: 'https://statbank.hagstova.fo:443/api/v1/en/H2/'
-    year_column: YEAR
+    year_column: year
     value_column: value
     sleep: 5
     code_map: code-map.csv
