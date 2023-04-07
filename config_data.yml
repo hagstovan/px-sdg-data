@@ -44,7 +44,6 @@ inputs:
     year_column: YEAR
     value_column: value
     sleep: 5
-    code_map: code-map.csv
     indicator_id_map:
       SDG01/SDG_1_2_1.px: 1-2-1
   - class: InputYamlMeta
