@@ -46,7 +46,7 @@ inputs:
     sleep: 5
     code_map: code-map.csv
     indicator_id_map:
-      SDG01/SDG_1_2_1.px: 1-2-1
+      SDG/SDG01/SDG_1_2_1.px: 1-2-1
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
