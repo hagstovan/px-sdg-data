@@ -40,13 +40,13 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputPxWebApi
-    endpoint: 'https://statbank.hagstova.fo:443/api/v1/fo/H2/'
+    endpoint: 'https://statbank.hagstova.fo:443/api/v1/en/H2/SDG/'
     year_column: YEAR
     value_column: value
     sleep: 5
     code_map: code-map.csv
     indicator_id_map:
-      SDG/SDG01/SDG_1_2_1.px: 1-2-1
+      SDG01/SDG_1_2_1.px: 1-2-1
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
