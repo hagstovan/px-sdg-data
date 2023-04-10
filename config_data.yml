@@ -40,7 +40,7 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputPxWebApi
-    endpoint: 'https://statbank.hagstova.fo:443/api/v1/en/H2/'
+    endpoint: 'https://statbank.hagstova.fo/api/v1/en/H2/'
     year_column: year
     value_column: value
     sleep: 5
